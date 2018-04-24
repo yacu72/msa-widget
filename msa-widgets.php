@@ -4,6 +4,10 @@ Plugin Name: MSA Widget
 Description: Custom widget for MSA site
 */
 
+/**
+ * Notes: use with taxonomy-{tax_name}.php, custom page with custom code to show custom posty type for custom taxonomy.
+ */
+
 // Register and load the widget
 function msa_load_widget() {
     register_widget( 'msa_widgets' );
