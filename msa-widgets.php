@@ -8,6 +8,8 @@ Description: Custom widget for MSA site
  * Notes: use with taxonomy-{tax_name}.php, custom page with custom code to show custom posty type for custom taxonomy.
  */
 
+require_once( plugin_dir_path( __FILE__ ) . "include/msa-book-navigation.php" );
+
 // Register and load the widget
 function msa_load_widget() {
     register_widget( 'msa_widgets' );
